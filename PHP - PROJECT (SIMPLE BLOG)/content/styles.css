@@ -1,0 +1,280 @@
+ body>header {
+    background: #eee;
+}
+
+body>header>a>img, body>header a  {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 5px;
+    font-size: 1.2em;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+body>footer {
+    background: #eee;
+    padding: 5px;
+    margin: 80px 0;
+    text-align: center;
+    clear: both;
+}
+
+table th, table td {
+    background: #DDD;
+    padding: 5px;
+}
+
+ul#messages li {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul#messages li.info {
+    background: #7f7;
+}
+
+ul#messages li.error {
+    background: #d00;
+    color: white;
+}
+
+.validation-error {
+    vertical-align: top;
+    margin-left: 10px;
+    color: red;
+}
+
+#logged-in-info {
+    float: right;
+    margin-top: 18px;
+}
+
+#logged-in-info form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body>aside {
+    float: right;
+    width: 200px;
+    background: #eee;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+body>aside h2 {
+    margin: 5px 0px 15px 0px;
+}
+
+body>aside a {
+    display: block;
+    margin: 5px 0px;
+    text-decoration: none;
+}
+
+body>main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+header a:hover {
+    border-bottom: 1px solid #000;
+}
+
+ header a:first-child:hover {
+     border-bottom: none;
+ }
+
+ header a:first-child {
+     padding-top: 0px;
+ }
+
+ #newPost{
+     float: right;
+     margin: 15px 0;
+     height: 20px;
+     padding: 8px;
+     background-color: #DDD;
+     color: black;
+     text-decoration: none;
+ }
+
+ #newPost:hover{
+     background-color: #f2f2f2;
+ }
+
+ #formCreatePost input[type="text"], #editPost input[type="text"], #delPost input[type="text"]{
+     width: 25%;
+     height: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ #formCreatePost textarea, #editPost textarea, #delPost textarea{
+     width: 60%;
+     margin-top: 10px;
+ }
+
+ #formCreatePost div,#editPost div, #delPost div{
+     width: 60%;
+ }
+ #formCreatePost input[type=submit],#formCreatePost a, #editPost input[type=submit],#editPost a, #delPost input[type=submit],#delPost a{
+     float: right;
+     margin: 15px 0;
+     padding: 8px;
+     background-color: #DDD;
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ #formCreatePost input[type=submit], #editPost input[type=submit], #delPost input[type=submit]{
+     border: none;
+     width: 60px;
+ }
+
+ #formCreatePost a, #editPost a, #delPost a{
+     height: 19px;
+     padding-left: 10px;
+     margin-left: 10px;
+ }
+
+ #formCreatePost input[type=submit]:hover,#formCreatePost a:hover,  #editPost input[type=submit]:hover,#editPost a:hover,
+ #delPost input[type=submit]:hover, #delPost a:hover{
+     background-color: #f2f2f2;
+ }
+
+ aside a {
+     border-bottom: 1px solid #000;
+ }
+
+ .posts {
+     background-color: #CCC;
+     width: 75%;
+     padding: 20px;
+     margin-bottom: 20px;
+     text-align: justify;
+ }
+
+ .posts h1 {
+     margin: 0;
+ }
+
+ .creator{
+     border-bottom: 1px solid #000;
+     width: 50%;
+ }
+
+ .creator span{
+     font-weight: bold;
+ }
+
+ .formRegister, .formLogin{
+     width: 40%;
+     padding-top: 30px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     background-color: #ccc;
+     width: 15%;
+     overflow: auto;
+ }
+
+ .formRegister input, .formLogin input{
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: 22px;
+ }
+
+ .formRegister label, .formLogin label{
+     margin-left: 22px;
+ }
+
+ table a {
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ table a:hover{
+     background-color: #f2f2f2;
+ }
+
+.formLogin [type=submit], .formRegister [type=submit]{
+    border: none;
+    width: 60px;
+    padding: 8px;
+    background-color: #DDD;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 54%;
+ }
+
+ .formLogin [type=submit]:hover,  .formRegister [type=submit]:hover{
+     background-color: #f2f2f2;
+ }
+
+
+ .createLink {
+     margin-top:10px;
+     float:right;
+     padding: 10px;
+     background-color: #DDD;
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ .createLink:hover{
+     background-color: #ccc;
+ }
+
+
+ .postsDiv{
+     border: 2px solid #ccc ;
+ }
+
+ .postsDiv a{
+     text-decoration: none;
+ }
+
+
+ .postsDiv a:hover{
+     background-color: #f2f2f2;
+ }
+ .postsDiv ul li{
+     list-style-type: none;
+ }
+
+.linkPosts {
+    display: inline-block;
+}
+
+.linkPosts a {
+    padding: 8px;
+    width: 60px;
+    height: 30px;
+    background-color: #DDD;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.linkPosts:last-child{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
